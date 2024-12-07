@@ -20,12 +20,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <script
-          src="https://unpkg.com/react-scan/dist/auto.global.js"
-          async
-        ></script>
-      </head>
       <body className={inter.className}>
         <DashboardWrapper>{children}</DashboardWrapper>
       </body>
